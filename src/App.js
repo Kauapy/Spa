@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Inicio from './paginas/Inicio/index';
+import SobreMim from './paginas/SobreMim/index';
+
+console.log(window.location);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const pagina = window.location.pathname === "/" ? <Inicio /> : <SobreMim />;
+  return pagina;
 }
 
 export default App;
