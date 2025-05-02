@@ -1,12 +1,13 @@
 import React from "react";
 import Inicio from "./paginas/Inicio/index";
 import SobreMim from "./paginas/SobreMim/index";
+import Menu from "./paginas/componentes/Menu/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-      
+        <Menu></Menu>
       <Routes>
         <Route path="/" element={<Inicio></Inicio>}></Route>
         <Route path="/sobremim" element={<SobreMim></SobreMim>}>
