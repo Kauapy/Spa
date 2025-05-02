@@ -1,19 +1,16 @@
-import React from "react";
-import Inicio from "./paginas/Inicio/index";
-import SobreMim from "./paginas/SobreMim/index";
-import Menu from "./paginas/componentes/Menu/index";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Menu from './paginas/componentes/Menu';
+import Inicio from './paginas/Inicio';
+import SobreMim from './paginas/SobreMim';
 
 function App() {
   return (
     <BrowserRouter>
-        <Menu></Menu>
+      <Menu />
       <Routes>
-        <Route path="/" element={<Inicio></Inicio>}></Route>
-        <Route path="/sobremim" element={<SobreMim></SobreMim>}>
-          {" "}
-        </Route>
-        <Route path="*" element={<div>Page not found 404</div>}></Route>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/sobremim" element={<SobreMim />} />
       </Routes>
     </BrowserRouter>
   );
