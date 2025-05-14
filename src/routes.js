@@ -11,9 +11,10 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/sobremim" element={<SobreMim />} />
+        <Route path="*" element={<div>Page Not Found</div>}></Route>
       </Routes>
     </BrowserRouter>
   );
 }
 
-export default App;
+export default AppRoutes;
