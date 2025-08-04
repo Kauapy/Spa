@@ -1,8 +1,9 @@
-import Teste from "../../componentes/Teste";
+import Banner from '../Banner/Banner'
+
 export default function Inicio(){
     return(
         <main>
-            <Teste></Teste>
+            <Banner></Banner>
             <h1>Hello World</h1>
         </main>
     )
