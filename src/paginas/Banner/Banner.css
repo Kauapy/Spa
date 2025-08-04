@@ -36,8 +36,8 @@
 .imagens > .circuloColorido {
     position: absolute;
     right: 7vw;
-    bottom: 2.2vw;
-    width: 25vw;
+    bottom: 2.0vw;
+    width: 21vw;
 }
  
 @media (max-width: 1100px) {    
@@ -66,6 +66,7 @@
         right: 10vw;
         width: 35vw;
     }
+
 }
  
 @media (max-width: 744px) {

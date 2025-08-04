@@ -1,0 +1,42 @@
+[
+{
+    "id": "1",
+    "titulo": "Python: Origem do nome",
+    "texto": "Python é uma linguagem de programação simples e poderosa capaz de criar inúmeros sistemas e aplicações. Fazendo com que ela se torne complexa ao mesmo tempo."
+},
+{
+    "id": "2",
+    "titulo": "O que é Node?",
+    "texto": "Node é um ambiente de execução JavaScript que permite executar código JavaScript fora de um navegador. Ele é amplamente utilizado para construir aplicações web escaláveis e de alto desempenho."
+},
+{
+    "id": "3",
+    "titulo": "O que é React?",
+    "texto": "React é uma biblioteca JavaScript para construir interfaces de usuário. Ela permite criar componentes reutilizáveis e gerenciar o estado da aplicação de forma eficiente."
+},
+{
+    "id": "4",
+    "titulo": "O que é Angular?",
+    "texto": "Angular é um framework para construir aplicações web dinâmicas. Ele oferece uma estrutura robusta e ferramentas para desenvolver aplicações complexas de forma organizada."
+},
+{
+    "id": "5",
+    "titulo": "O que é Vue.js?",
+    "texto": "Vue.js é um framework progressivo para construir interfaces de usuário. Ele é fácil de aprender e se integra bem com outras bibliotecas ou projetos existentes."
+},
+{
+    "id": "6",
+    "titulo": "O que é TypeScript?",
+    "texto": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática. Ele ajuda a detectar erros em tempo de compilação e melhora a manutenção do código."
+},
+{
+    "id": "7",
+    "titulo": "O que é JWT?",
+    "texto": "JWT (JSON Web Token) é um padrão aberto (RFC 7519) que define um formato compacto e autocontido para transmitir informações entre partes de forma segura como um objeto JSON. Ele é amplamente utilizado para autenticação e troca de informações entre sistemas."
+},
+{
+    "id": "8",
+    "titulo": "O que é GraphQL?",
+    "texto": "GraphQL é uma linguagem de consulta para APIs que permite solicitar exatamente os dados necessários. Ele oferece uma alternativa ao REST, permitindo consultas mais flexíveis e eficientes."
+}
+]
