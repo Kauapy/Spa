@@ -1,6 +1,6 @@
 import "./inicio.css";
 import posts from "../json/posts.json";
-import Posts from "paginas/Post/Post";
+import Posts from "paginas/PostCard/Post";
 
 export default function Inicio() {
   return (

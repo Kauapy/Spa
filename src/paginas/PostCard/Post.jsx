@@ -1,7 +1,7 @@
 import React from "react";
 import "./Post.css";
 
-const Post = ({ post }) => {
+const PostCard = ({ post }) => {
   return (
     <div className="post">
       <img

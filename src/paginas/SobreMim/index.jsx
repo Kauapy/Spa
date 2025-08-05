@@ -1,6 +1,7 @@
 import React from 'react';
 import fotoCapa from '../../assets/sobre_mim_capa.png';
 import PostModelo from '../PostModelo/PostModelo';
+import fotoPc from '../../assets/fotoPc.png';
 import './SobreMim.css';
 
 export default function SobreMim(){
@@ -9,6 +10,7 @@ export default function SobreMim(){
             <h3 className='subtitulo'>
                 Olá, eu sou o Kauã 
             </h3>
+            <img src={fotoPc} alt='fotoPc com código' className='fotoSobreMim'></img>
 
             <p className='paragrafo'> 
                 Peter got out of bed feeling sad. He was tired of living and wanted to die.
