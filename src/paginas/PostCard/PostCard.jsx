@@ -1,8 +1,10 @@
 import React from "react";
-import "./Post.css";
+import "./PostCard.css";
+import { Link } from "react-router-dom";
 
 const PostCard = ({ post }) => {
   return (
+    <Link to={`/posts/${post.id}`}>
     <div className="post">
       <img
         className="capa"
@@ -16,7 +18,8 @@ const PostCard = ({ post }) => {
 
       <button className="botaoLer">Ler</button>
     </div>
+    </Link>
   );
 };
 
-export default Post;
+export default PostCard;
