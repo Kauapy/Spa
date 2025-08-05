@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../../componentes/Banner';
+import Banner from '../Banner/Banner';
 export default function SobreMim(){
     return(
         <main>
