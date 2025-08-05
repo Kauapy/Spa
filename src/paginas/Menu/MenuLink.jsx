@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import style from '../Menu/MenuLink.module.css';
+import style from './MenuLink.css'; 
 
 export default function MenuLink({children, to}) {
   const localizacao = useLocation();
