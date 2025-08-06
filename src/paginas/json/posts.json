@@ -2,41 +2,41 @@
 {
     "id": "1",
     "titulo": "Python: Origem do nome",
-    "texto": "Python é uma linguagem de programação simples e poderosa capaz de criar inúmeros sistemas e aplicações. Fazendo com que ela se torne complexa ao mesmo tempo."
+    "texto": "Python é uma linguagem de programação simples e poderosa capaz de criar inúmeros sistemas e aplicações. Fazendo com que ela se torne complexa ao mesmo tempo que simples. O nome Python foi inspirado no grupo de comédia britânico Monty Python, e não tem relação com a cobra. Guido van Rossum, o criador da linguagem, queria um nome curto, único e um pouco misterioso para refletir o espírito divertido da linguagem."
 },
 {
     "id": "2",
     "titulo": "O que é Node?",
-    "texto": "Node é um ambiente de execução JavaScript que permite executar código JavaScript fora de um navegador. Ele é amplamente utilizado para construir aplicações web escaláveis e de alto desempenho."
+    "texto": "Node é um ambiente de execução JavaScript que permite executar código JavaScript fora de um navegador. Ele é amplamente utilizado para construir aplicações web escaláveis e de alto desempenho usando JavaScript no lado do servidor. Node utiliza o motor V8 do Google Chrome para executar o código JavaScript, oferecendo uma plataforma eficiente e leve para desenvolvimento de aplicações em tempo real."
 },
 {
     "id": "3",
     "titulo": "O que é React?",
-    "texto": "React é uma biblioteca JavaScript para construir interfaces de usuário. Ela permite criar componentes reutilizáveis e gerenciar o estado da aplicação de forma eficiente."
+    "texto": "React é uma biblioteca JavaScript para construir interfaces de usuário. Ela permite criar componentes reutilizáveis e gerenciar o estado da aplicação de forma eficiente usando um modelo baseado em componentes. React é amplamente utilizado para desenvolver aplicações web dinâmicas e interativas, facilitando a criação de interfaces complexas com uma abordagem declarativa e baseada em componentes."
 },
 {
     "id": "4",
     "titulo": "O que é Angular?",
-    "texto": "Angular é um framework para construir aplicações web dinâmicas. Ele oferece uma estrutura robusta e ferramentas para desenvolver aplicações complexas de forma organizada."
+    "texto": "Angular é um framework para construir aplicações web dinâmicas. Ele oferece uma estrutura robusta e ferramentas para desenvolver aplicações complexas de forma organizada e escalável. Angular utiliza TypeScript como linguagem principal, permitindo a criação de componentes reutilizáveis, injeção de dependências e roteamento avançado. É amplamente utilizado para desenvolver aplicações de página única (SPA) com uma experiência de usuário rica e interativa."
 },
 {
     "id": "5",
     "titulo": "O que é Vue.js?",
-    "texto": "Vue.js é um framework progressivo para construir interfaces de usuário. Ele é fácil de aprender e se integra bem com outras bibliotecas ou projetos existentes."
+    "texto": "Vue.js é um framework progressivo para construir interfaces de usuário. Ele é fácil de aprender e se integra bem com outras bibliotecas ou projetos existentes para criar aplicações web interativas. Vue.js adota uma abordagem baseada em componentes, permitindo a criação de interfaces dinâmicas e reativas. Ele é conhecido por sua simplicidade, flexibilidade e pela capacidade de ser adotado incrementalmente em projetos existentes, tornando-o uma escolha popular para desenvolvedores que buscam uma solução leve e eficiente para desenvolvimento web."
 },
 {
     "id": "6",
     "titulo": "O que é TypeScript?",
-    "texto": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática. Ele ajuda a detectar erros em tempo de compilação e melhora a manutenção do código."
+    "texto": "TypeScript é um superconjunto de JavaScript que adiciona tipagem estática. Ele ajuda a detectar erros em tempo de compilação e melhora a manutenção do código ao fornecer recursos avançados de tipagem. TypeScript é amplamente utilizado em projetos grandes e complexos, pois permite uma melhor organização do código, facilita a refatoração e melhora a legibilidade, tornando o desenvolvimento mais eficiente e menos propenso a erros."
 },
 {
     "id": "7",
     "titulo": "O que é JWT?",
-    "texto": "JWT (JSON Web Token) é um padrão aberto (RFC 7519) que define um formato compacto e autocontido para transmitir informações entre partes de forma segura como um objeto JSON. Ele é amplamente utilizado para autenticação e troca de informações entre sistemas."
+    "texto": "JWT (JSON Web Token) é um padrão aberto (RFC 7519) que define um formato compacto e autocontido para transmitir informações entre partes de forma segura como um objeto JSON. Ele é amplamente utilizado para autenticação e troca de informações entre sistemas de forma segura. JWT é composto por três partes: cabeçalho, carga útil e assinatura, permitindo a verificação da integridade dos dados e a autenticação do remetente. Ele é frequentemente usado em aplicações web para autenticar usuários e autorizar acesso a recursos protegidos."
 },
 {
     "id": "8",
     "titulo": "O que é GraphQL?",
-    "texto": "GraphQL é uma linguagem de consulta para APIs que permite solicitar exatamente os dados necessários. Ele oferece uma alternativa ao REST, permitindo consultas mais flexíveis e eficientes."
+    "texto": "GraphQL é uma linguagem de consulta para APIs que permite solicitar exatamente os dados necessários. Ele oferece uma alternativa ao REST, permitindo consultas mais flexíveis e eficientes para obter dados de uma API. Com GraphQL, os clientes podem especificar a estrutura dos dados que desejam receber, evitando o problema de over-fetching e under-fetching. Ele também permite a agregação de dados de várias fontes em uma única consulta, tornando-o uma escolha popular para aplicações que exigem flexibilidade na obtenção de dados."
 }
 ]
