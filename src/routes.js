@@ -16,7 +16,7 @@ function AppRoutes() {
         <Route path="/" element={<PaginaPadrao></PaginaPadrao>}>
           <Route path="/" element={<Inicio />} />
           <Route path="/sobremim" element={<SobreMim />} />
-          <Route path="/post" element={<Post />} />
+          <Route path="/posts/:id" element={<Post />} />
         </Route>
         <Route path="*" element={<div>Page Not Found</div>}></Route>
       </Routes>
