@@ -12,6 +12,10 @@ const Post = () => {
 
   const post = posts.find(p => String(p.id) === parametros.id);
 
+  if(!post){
+    return <div>Post não encontrado</div>;
+  }
+
 
   return (
     <PostModelo

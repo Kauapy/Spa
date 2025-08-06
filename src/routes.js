@@ -6,6 +6,7 @@ import SobreMim from "./paginas/SobreMim";
 import Rodape from "paginas/Rodape/Rodape";
 import PaginaPadrao from "paginas/PaginaPadrao/PaginaPadrao";
 import Post from "./paginas/Post/Post";
+import PageNotFound from "./paginas/PageNotFound/PageNotFound.jsx";
 
 
 function AppRoutes() {
@@ -18,7 +19,7 @@ function AppRoutes() {
           <Route path="/sobremim" element={<SobreMim />} />
           <Route path="/posts/:id" element={<Post />} />
         </Route>
-        <Route path="*" element={<div>Page Not Found</div>}></Route>
+        <Route path="*" element={<PageNotFound/>}></Route>
       </Routes>
       <Rodape></Rodape>
     </BrowserRouter>
