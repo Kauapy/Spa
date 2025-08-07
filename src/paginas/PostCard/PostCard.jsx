@@ -1,6 +1,7 @@
 import React from "react";
 import "./PostCard.css";
 import { Link } from "react-router-dom";
+import BotaoPrincipal from "paginas/BotaoPrincipal/BotaoPrincipal";
 
 const PostCard = ({ post }) => {
   return (
@@ -16,7 +17,7 @@ const PostCard = ({ post }) => {
         {post.titulo}
       </h2>
 
-      <button className="botaoLer">Ler</button>
+      <BotaoPrincipal>Ler</BotaoPrincipal>
     </div>
     </Link>
   );

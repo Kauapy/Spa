@@ -1,8 +1,13 @@
 import React from "react";
 import "./PageNotFound.css"; 
 import erro404 from "../../assets/erro_404.png";
+import BotaoPrincipal from "paginas/BotaoPrincipal/BotaoPrincipal";
+import { useNavigate } from "react-router-dom";
 
-export default function NaoEncontrada() {
+export default function NaoEncontrada(lg) {
+
+  const navegar = useNavigate();
+
   return (
     <>
       <div className="conteudoContainer">
@@ -19,8 +24,11 @@ export default function NaoEncontrada() {
           inicial.
         </p>
 
-        <div className="botaoContainer">
-          <button>Voltar</button>
+        <div className="botaoContainer"
+        onClick={() => {
+          navegar("/")
+        }}>
+          <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
         </div>
 
         <img
